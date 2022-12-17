@@ -107,18 +107,18 @@ def main(mode, width, height, n, r):
 
 if __name__ == "__main__":
 # Random cornerpoint selection
-    main(0, 1000, 1000, 3, 0.5)
-    main(0, 1000, 1000, 4, 0.5)
-    main(0, 1000, 1000, 5, 0.5)
-    main(0, 1000, 1000, 5, 0.62)
-    main(0, 1000, 1000, 6, 0.5)
+    main(0, 300, 300, 3, 0.5)
+    main(0, 300, 300, 4, 0.5)
+    main(0, 300, 300, 5, 0.5)
+    main(0, 300, 300, 5, 0.5)
+    main(0, 300, 300, 6, 0.5)
 
 # Cornerpoints cannot be chosen twice in a row
-    main(1, 1000, 1000, 4, 0.5)
-    main(1, 1000, 1000, 5, 0.5)
-    main(1, 1000, 1000, 6, 0.5)
+    main(1, 300, 300, 4, 0.5)
+    main(1, 300, 300, 5, 0.5)
+    main(1, 300, 300, 6, 0.5)
 
 # If a cornerpoint is chosen twice, the next selected point must not be a direct neighbor.
-    main(2, 1000, 1000, 4, 0.5)
-    main(2, 1000, 1000, 5, 0.5)
-    main(2, 1000, 1000, 6, 0.5)
+    main(2, 300, 300, 4, 0.5)
+    main(2, 300, 300, 5, 0.5)
+    main(2, 300, 300, 6, 0.5)
